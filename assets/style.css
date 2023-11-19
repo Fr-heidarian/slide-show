@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: #f8dddd;
+}
+section.slider {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+.title {
+  text-align: center;
+}
+.images-box img {
+  width: 100%;
+  display: none;
+}
+
+.images-box img:first-child {
+  display: block;
+}
+.controllers {
+  width: 100%;
+  position: absolute;
+  top: 48%;
+}
+.controllers button {
+  font-size: 1.5rem;
+}
+.controllers .next{
+    right: 1rem;
+    position: absolute;
+}
+
+.controllers .previous{
+    left: 1rem;
+    position: absolute;
+}
+.indicators{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 1rem;
+}
+.indicators span {
+    display: inline-block;
+    padding: 5px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 70%;
+}

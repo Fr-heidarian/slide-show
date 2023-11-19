@@ -1,19 +1,19 @@
 # slide-show
 
-# description 
+### description 
 slid show for website 
 screenshot
 
-# properties
+### properties
 
-# run
+### run
 ```
 git init
 ```
 
-# requirments
+### requirments
 
-# tools
+### tools
 
-# languge
+### language
 developed by html, css and javascript
