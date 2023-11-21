@@ -32,3 +32,20 @@ document.querySelector(".previous").addEventListener("click", () => {
 const array = [10, 20, 30];
 // last index = array.length -1
 // console.log(array);
+
+// setTimeout(()=>{
+//  console.log("hello");
+// }, 3000 )
+
+// setInterval(() => {
+//   console.log("hi");
+// }, 3000);
+
+setInterval(() => {
+      images[index].style.display = "none";
+      index++; // 4
+      if (index >= images.length) {
+        index = 0;
+      }
+      images[index].style.display = "block";
+}, 3000);
